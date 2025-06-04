@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banderogans</title>
+
+    <link rel="preload" href="./img/gus-anim.gif" as="image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/stiles.css">
+</head>
+
+<body>
+
+    <!-- Hauptseite -->
+    <section class="main-page">
+        <div class="wrapper">
+            <div class="main-page-left-side">
+                <img src="./img/goit-logo.svg" alt="Logo" class="logo">       
+
+                <div class="main-page-text-container">
+                    <h2 class="main-page-description">Guten Abend, wir kommen aus der Ukraine</h2>
+                    <h1 class="main-page-title">Banderogans</h1>
+                    <p class="main-page-text">Ein spezieller Kampf-Gans aus ukrainischen Biolaboren. Stolz auf seine Heldentaten, verteidigt er das Vaterland und stärkt den Geist des Volkes. Ruhm der Ukraine!</p>
+                    <button class="main-page-button" id="go-to-form-btn">Gans starten</button>
+                </div>
+            </div>
+            <img src="./img/gus-main-page.svg" alt="Gans Bild">
+        </div>
+    </section>
+
+    <!-- Fakten über Gänse -->
+    <section class="gus-facts">
+        <img src="./img/tryzub.svg" alt="Tryzub" class="tryzub">
+        <h2 class="gus-facts-title">Interessante Fakten über Banderogänse</h2>
+        <p class="gus-facts-descr">Normalerweise sind Banderogänse friedliche Vögel. Doch im Notfall greifen sie mit Hochleistungssystemen an. Außerdem setzen sie psychologische Angriffe mit Zischen und Flügelschlägen ein.</p>
+
+        <div class="wrapper">
+            <div class="gus-fact-item">
+                <img src="./img/gus1.svg" alt="Fakt 1">
+                <h3 class="gus-fact-item-title">Navigationssystem</h3>
+                <p class="gus-fact-item-descr">Satellitengestütztes GPS und Echolote erkennen feindliche Technik bereits während der Montage.</p>
+            </div>
+            <div class="gus-fact-item">
+                <img src="./img/gus2.svg" alt="Fakt 2">
+                <h3 class="gus-fact-item-title">Wärmebild-Augen</h3>
+                <p class="gus-fact-item-descr">Erkennen thermische Signaturen von Objekten und verbessern die Zielgenauigkeit erheblich.</p>
+            </div>
+            <div class="gus-fact-item">
+                <img src="./img/gus3.svg" alt="Fakt 3">
+                <h3 class="gus-fact-item-title">Bayrak-Flügel</h3>
+                <p class="gus-fact-item-descr">Können 2–4 gelenkte Raketen tragen, die Ziele in beeindruckender Entfernung treffen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formular -->
+    <section class="form-section">
+        <form action="#" class="form-container" id="form" netlify>
+            <img src="./img/tryzub.svg" alt="Tryzub">
+            <h3 class="form-title">Bitte teile deine E-Mail-Adresse</h3>
+            <p class="form-descr">und registriere die Gans für die Banderoeinheit</p>
+
+            <div class="form-field form-field-email">
+                <label for="user-name" class="form-field-lable">Name</label>
+                <input type="text" class="form-field-input" name="Name" id="user-name"> 
+            </div>
+
+            <div class="form-field">
+                <label for="user-email" class="form-field-lable">E-Mail</label>
+                <input type="email" class="form-field-input" name="Email" id="user-email">
+            </div>
+
+            <button class="form-btn" id="launch-btn">Gans starten</button>
+        </form>
+    </section>
+
+    <script src="./js/form.js"></script>
+</body>
+</html>
